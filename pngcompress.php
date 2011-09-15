@@ -41,7 +41,7 @@ class PNGCompress{
 	private $size;
 	
 	public function __destruct(){
-		imagedestroy($this->handle);
+		@ imagedestroy( $this->handle );
 	}
 	
 	public function from_file( $file ){
