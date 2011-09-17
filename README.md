@@ -35,3 +35,9 @@ Usage
     $sometext = $convert->restore( "sometext.png" ); 
     
     ?>
+    
+### Demo
+
+jQuery.js compressed as image
+
+![Demo](http://lab.dornauer.cc/convert-text-to-image/test.php?jquery.js)
